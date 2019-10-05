@@ -3,19 +3,23 @@ body{
     background-repeat: repeat;
 }
 
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 960px;
+}
 
 .content {
     margin-top: 30px;
-    width: 960px;
     align-content: center;
     justify-content: center;
     top: 100px;
-    left: 13%;
+    /* left: 13%; */
     background: #ffffff;
     position: relative;
 }
 
-.navbar{    
+.header{    
     position: absolute;
     left: 0;
     right: 0;
@@ -26,6 +30,12 @@ body{
     border-bottom-style: solid;
 }
 
+.navbar{
+    margin-left: auto;
+    margin-right: auto;
+    width: 960px;
+}
+
 li{
     display: inline-block;
     margin: 0 20px;
@@ -34,9 +44,7 @@ li{
 .name{
     width: auto;
     padding: 15px;
-    margin: 0;
     text-align: center;
-    margin-left: 13%;
     background: #4aaaa5;
     color: #ffffff;
     display: inline-block;
@@ -51,11 +59,10 @@ li{
 } */
 
 .links{
-    width: auto;
+    font-size: 20px;
     position: fixed;
     padding: 15px;
-    margin: 0;
     text-align: center;
-    margin-left: 400px;
-    display: inline-block;
+    margin-left: 375px;
+    display: inline;
 }
