@@ -47,6 +47,7 @@ input{
 
 .content {
     margin-top: 150px;
+    margin-bottom: 100px;
     align-content: center;
     justify-content: center;
     top: 100px;
@@ -154,7 +155,8 @@ a{
 .footer{
     position: absolute;
     left: 0%;
-    margin-top: 75px; 
+    bottom: auto;
+    margin-top: 25px; 
     display: inline-block;
     font-size: 10px;
     padding-top: 55px;
